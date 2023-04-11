@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Min andra hemsida</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header> 
@@ -17,9 +18,25 @@
     </header>
     <main>
         <!--Huvudinnehåll-->
+        <h1>Kontakta mig</h1>
         <p id="my-id"></p>
         <p class="my class"></p>
         <p class="two classes"></p>
+        <form>
+            <label for="name">Namn: </label><br>
+            <input class="my-form" type="text" id="name" name="name"><br>
+
+            <label for="email">Email: </label><br>
+            <input class="my-form" type="email" id="email" name="email"><br>
+
+            <label for="message">Meddelande: </label><br>
+            <textarea class="my-form" id="message" name="message"></textarea><br>
+
+            <input type="submit" value="Skicka">
+
+
+
+        </form>
     </main>
 
     <footer>
