@@ -55,3 +55,54 @@ header nav a {
     text-decoration: none;
     font-weight: bold;
 }
+
+header nav a:hover {
+    color: #FFF;
+}
+
+header nav a.active {
+    color: #FFF;
+         
+}
+
+header nav a:active {
+    color: rgb(200, 32, 32);
+         
+}
+
+h1, h2 {
+
+    color: rgb(0, 0, 0);
+    font-family:'Times New Roman', Times, serif;
+    line-height: 130%;
+    margin: 0 auto;
+    max-width: 650px;
+}
+
+main {
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 130%;
+    margin: 0 auto;
+    max-width: 650px;
+
+}
+
+footer {
+    background-color: rgb(156, 125, 52);
+    padding: 20px;
+    color: #000;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 12px;
+}
+
+footer p {
+    margin: 5px;
+    text-align: center;
+}
+
+.my-form {
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+}
